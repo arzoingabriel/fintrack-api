@@ -7,3 +7,4 @@ function isValidAmount(amount) {
 }
 
 module.exports = { isValidName, isValidAmount };
+
