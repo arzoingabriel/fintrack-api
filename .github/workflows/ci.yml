@@ -107,4 +107,5 @@ jobs:
       - name: Un job a échoué ou a été annulé
         if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
         run: exit 1
-      - run: echo "Tous les checks CI sont au vert"
+      - run: echo "Tous les checks CI sont au vert" 
+      
